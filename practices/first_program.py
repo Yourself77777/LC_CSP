@@ -6,4 +6,4 @@ print (" hello", name)
 
 how = input("how are you") 
 
-print (how, ", thats nice")
+print (how,",thats nice")
