@@ -1,3 +1,5 @@
 # LC 7th Github connection 
 
-print("Hi :)")
+age = input("what is your age")
+
+print("Hi :)",age)
