@@ -8,4 +8,4 @@ how = input("how are you")
 
 print (how,",thats nice")
 
-Print (name)
+print (name)
