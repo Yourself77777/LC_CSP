@@ -41,7 +41,7 @@ print("interger division (//)", num1 // num2)
 print("modulo (%)", num1 % num2)
 
 #List ALL of the different assignment operators (Give me the symbols and what it does) -
-#
+# why
 
 #Why are expressions so important in programming-
 #
