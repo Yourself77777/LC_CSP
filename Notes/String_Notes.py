@@ -1,3 +1,3 @@
-#LC &=7th String Notes
+#LC 7th String Notes
 
 print("i did it")
