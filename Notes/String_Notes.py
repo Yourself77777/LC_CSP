@@ -11,7 +11,7 @@ full_name = first_name + " " + last_name
 sentence = '       the quick brown fox jumps over the lazy dog           ' 
 print(sentence.strip())
 
-print("welcome to my program", full_name + " ")
+print("welcome to my program", full_name + "!")
 
 # Why do we have strings
 # -
