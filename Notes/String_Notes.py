@@ -7,7 +7,7 @@ first_name = input("What is your first name:\n").strip().title()
 
 last_name = input("what is your last name:\n").strip().title()
 
-full_name = first_name + " " + last_name
+full_name = first_name + " " + last_name #Concatenation
 sentence = '       the quick brown fox jumps over the lazy dog           ' 
 print(sentence.strip())
 
@@ -47,6 +47,3 @@ print("my favorit number is", + num)
 # Descrive what each of the methods below does-
 find() # Tells us the begginning index of a line/ Example 
 print(sentence[sentence.find("lazy"): len (lazy)+sentence.find("lazy")])
-
-
-
