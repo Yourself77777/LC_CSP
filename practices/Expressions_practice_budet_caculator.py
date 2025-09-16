@@ -1,12 +1,10 @@
 # LC 7th Financial calculator
 
-def money(): 
-    
-income = input("what is your monthly income:\n")
-rent = input("what is your monthly rent:\n")
-utilities = input("what is you monthly pay in utilities:\n")
-groceries = input("how much do you spend on groceries each month:\n")
-transportation = input("how much do you spend on transportation monthly:\n")
+income = input("what is your monthly income\n")
+rent = input("what is your monthly rent\n")
+utilities = input("what is your monthly pay for utilities\n")
+groceries = input("what is your monthly pay for groceries\n")
+transportation = input("what is your monthly pay for transportation\n")
 
 income_num = float(income)
 rent_num = float(rent)
