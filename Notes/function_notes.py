@@ -55,7 +55,6 @@ import random
 def roll(mod):
     return random.randint(2, 18) + mod
 
-
 strength = roll(0)
 dextarity = roll(1)
 intellegence = roll(1)

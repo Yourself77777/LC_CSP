@@ -1,11 +1,5 @@
 #LC Per 7 first program 
 
-name = input("what is your name")
-
-print (" hello", name)
-
-howe = input("how are you") 
-
-print (howe,",thats nice")
-
-print (name)
+def world():
+    name = input(f"what is your name")
+    print (" hello", world)
