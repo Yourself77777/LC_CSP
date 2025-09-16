@@ -1,15 +1,13 @@
 # LC 7th Financial calculator
 
-#spend = income-(utilities + rent+ groceries + Transportation + savings)
-#percent_rent = rent /incom*100
-
+def money(): 
+    
 income = input("what is your monthly income:\n")
 rent = input("what is your monthly rent:\n")
 utilities = input("what is you monthly pay in utilities:\n")
 groceries = input("how much do you spend on groceries each month:\n")
 transportation = input("how much do you spend on transportation monthly:\n")
 
-#turning strings to floats
 income_num = float(income)
 rent_num = float(rent)
 utilities_num = float(utilities)
