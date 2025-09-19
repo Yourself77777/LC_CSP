@@ -1,6 +1,5 @@
 # LC 7th Time Of Day
 
-
 time = int(input("What is the time of day military time ther hour:\n"))
 
 if time >= 17:
