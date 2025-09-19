@@ -3,8 +3,8 @@
 time = int(input("What is the time of day military time ther hour:\n"))
 
 if time >= 17:
-    print(f"Good evening it is {time}:00")
+    print(f"Good evening it is {time} in military time")
 elif time>= 12:
-    print(f"Good afternoon it is {time}:00")
+    print(f"Good afternoon it is {time} in military time")
 else:
-    print(f"good morning it is {time}:00")
+    print(f"good morning it is {time} in military time")
