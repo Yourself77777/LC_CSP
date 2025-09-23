@@ -9,7 +9,7 @@ foods = ["Chocolate", "Pasta", "Brownies", "Cookies", "Garlic", "Bread", "Fajita
 # For loop/ used mainly for lists 
 # Example
 for food in foods:
-    print("Hi!")
+    print(f"My favorite food is {food}")
 
 for x in range(1,21):
     print(x)
