@@ -2,5 +2,5 @@
 
 Family = ["Kellee(Mom)", "Clay(Dad)", "Keylee(Sistor)", "Lindon(Brother/Me)"]
 
-for Family in Family:
-    print(f"Hello, {Family}")
+for All in Family:
+    print(f"Hello, {All}")
