@@ -25,7 +25,7 @@ int main(void){
     printf("I am %d years old\n", age);
     printf("My favorte subject is %s\n", favorite_subject);
 
-
+    
     return 0;
 }
 
