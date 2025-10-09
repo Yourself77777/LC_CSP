@@ -25,15 +25,4 @@ int main(void){
     printf("(22/2-2*5)^2+(4-6/6)^2 = %d", e9);
     
     return 0;
-}// LC 7th Expression Practice
-#include <stdio.h>
-#include <math.h>
-
-int main(void){
-    float equation_1 = (7-24/8*4+6);
-
-    printf("7-24/8*4+6 = %f\n", equation_1);
-
-
-    return 0;
 }
