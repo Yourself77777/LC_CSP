@@ -14,7 +14,6 @@ int main(void){
     printf("[%s]\n", full_name);
 
     printf("%c\n", last_name[0]);
-    last_name[0] = 'R';
 
     strcat(full_name, " ");
     printf("[%s]\n", full_name);
