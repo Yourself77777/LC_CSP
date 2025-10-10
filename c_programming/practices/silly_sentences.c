@@ -24,8 +24,8 @@ int main(void){
     scanf("%s\n", shiny_object);
     char shiny_object1[50];
     strcat(shiny_object1, shiny_object);
-    
-    printf("%s it is \n", shiny_object1);
-    printf("The %s had a mind of its own when it turned %s then it flew into the sky and was a shiny as a %s", object, color, shiny_object);
+    printf("The %s had a mind of its own when it turned %s then it flew into the sky and was a bright as a %s", object, color, shiny_object);
+
+    printf("The %s had a mind of its own when it turned %s then it flew into the sky and was a bright as a %s", object, color, shiny_object);
     return 0;
 }
