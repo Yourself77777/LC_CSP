@@ -12,7 +12,7 @@ int main(void){
     printf("[%s]\n", full_name);
     strcat(full_name, name);
     printf("[%s]\n", full_name);
-
+    
     printf("%c\n", last_name[0]);
 
     strcat(full_name, " ");
@@ -24,6 +24,8 @@ int main(void){
     printf("Your name is %s %s\n", name, last_name);
     printf("%zu\n", strlen(name));
     printf("%zu", sizeof(name));
+
+
 
 
     return 0;
