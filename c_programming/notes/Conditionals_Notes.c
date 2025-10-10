@@ -4,7 +4,7 @@
 
 int main(void){
     int grade;
-    int name[50];
+    char name[50];
     printf("What is you grade percent: ");
     scanf("%d", &grade);
 
