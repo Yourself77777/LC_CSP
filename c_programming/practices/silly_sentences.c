@@ -4,18 +4,28 @@
 
 int main(void){
 
-    char object;
-    char color;
-    char shiny_object;
-    printf("Name a object: \n");
-    scanf("%s\n", object);
+    char object [20];
+    printf("Give me a object: ");
+    scanf("%s", object);
+    char object1 [50];
+    strcat(object1, object);
+    printf("%s it is\n", object1);
 
-    printf("Name a color: \n");
-    scanf("%s\n", color);
 
-    printf("Name a object: \n");
+    char color[20];
+    printf("give me a color: \n");
+    scanf("%s", color);
+    char color1[50];
+    strcat(color1, color);
+    printf("%s it is \n", color1);
+
+    char shiny_object[20];
+    printf("Give me a shiny object: \n");
     scanf("%s\n", shiny_object);
-
-    printf("The %s had %s that was as bright as the %s.", object, color, shiny_object);
+    char shiny_object1[50];
+    strcat(shiny_object1, shiny_object);
+    
+    printf("%s it is \n", shiny_object1);
+    printf("The %s had a mind of its own when it turned %s then it flew into the sky and was a shiny as a %s", object, color, shiny_object);
     return 0;
 }
