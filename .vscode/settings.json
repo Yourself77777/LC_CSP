@@ -1,5 +1,8 @@
 {
     "C_Cpp.default.compilerPath": "C:/msys64/ucrt64/bin/gcc.exe",
     "python-envs.defaultEnvManager": "ms-python.python:system",
-    "python-envs.pythonProjects": []
+    "python-envs.pythonProjects": [],
+    "files.associations": {
+        "stdio.h": "c"
+    }
 }
