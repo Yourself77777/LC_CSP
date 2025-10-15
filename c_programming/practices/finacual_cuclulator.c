@@ -57,7 +57,7 @@ int main(void){
     printf("Your monthy pay for transportation is %.2f that is %.2f percent of your income\n", trans,perct4);
     
     saving_money = income*.10;
-    printf("You should save around %s\n", saving_money);
+    printf("You should save around %f\n", saving_money);
 
     
     spending_money = income - (rent+utils+gro+trans+saving_money);
