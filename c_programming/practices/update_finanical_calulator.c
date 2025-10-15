@@ -60,10 +60,9 @@ int main(void){
     printf("Your monthly transportation is %.2f\n",trans);
 
     
-    calculate(rent, "rent", )
+    calculate(rent, "rent", perct1);
     
-    perct2=(utils/income)*100;
-    printf("Your monthly utilities is %.2f that is %.2f%% of your income\n", utils,perct2);
+    calculate(utils, "Utilities", perct2);
 
     
     perct3=(gro/income)*100;
