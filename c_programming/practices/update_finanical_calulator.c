@@ -1,6 +1,30 @@
 // LC 7th Update Financial Calculator
 #include <stdio.h>
 #include <math.h>
+int calculate(float type1, char* word1, float perct){
+    float income;
+    perct=(type1/income)*100;
+    printf("Your monthly %d is %f that is %.2f%% of your income\n", word1, type1, perct);
+}
+int ask_question(char* word1, float varuable1){
+
+    float income;
+    float rent;
+    float utils;
+    float gro;
+    float trans;
+    float spending_money;
+    float perct4;
+    float perct3;
+    float perct2;
+    float perct1;
+    float saving_money;
+
+    printf("What is your monthly %s: ", word1);
+    scanf("%f", &varuable1);    
+
+    return varuable1;
+}
 
 int main(void){
 
@@ -17,52 +41,44 @@ int main(void){
     float saving_money;
 
 
-    printf("What is your monthly income: ");
-    scanf("%f", &income);
+    income = ask_question("income", income);
 
-    printf("What is your monthly pay for rent/mortagage: ");
-    scanf("%f", &rent);
+    rent = ask_question("Rent", rent);
 
-    printf("what is your monthly pay in utilities: ");
-    scanf("%f", &utils);
+    utils = ask_question("Utilitys", utils);
 
-    printf("what is your monthly pay for groceries: ");
-    scanf("%f", &gro);
+    gro = ask_question("groceries", gro);
 
-    printf("what is your monthly pay in transportation: ");
-    scanf("%f", &trans);
+    trans = ask_question("transprotation", trans);
 
   
 
-    printf("Your monthly icome is %.2f\n", income);
+    printf("Your monthly income is %.2f\n", income);
     printf("Your monthly rent is %.2f\n", rent);
     printf("Your monthly utilities is %.2f\n", utils);
     printf("Your mothly groceries is %.2f\n", gro);
     printf("Your monthly transportation is %.2f\n",trans);
 
     
-    perct1=(rent/income)*100;
-    printf("Your rent is %.2f that is %.2f percent of your income\n", rent,perct1);
-
+    calculate(rent, "rent", )
     
     perct2=(utils/income)*100;
-    printf("Your monthly utilities is %.2f that is %.2f percent of your income\n", utils,perct2);
+    printf("Your monthly utilities is %.2f that is %.2f%% of your income\n", utils,perct2);
 
     
     perct3=(gro/income)*100;
-    printf("Your monthly groceries is %.2f that is %.2f percent of your income\n", gro,perct3);
+    printf("Your monthly groceries is %.2f that is %.2f%% of your income\n", gro,perct3);
 
     
     perct4=(trans/income)*100;
-    printf("Your monthy pay for transportation is %.2f that is %.2f percent of your income\n", trans,perct4);
+    printf("Your monthy transportation is %.2f that is %.2f%% of your income\n", trans,perct4);
     
     saving_money = income*.10;
-    printf("You should save around %f\n", saving_money);
+    printf("You should save around %.2f%%\n", saving_money);
 
     
     spending_money = income - (rent+utils+gro+trans+saving_money);
     printf("you have %.2f spending money each month!", spending_money);
-    
-    printf("End code");
+
     return 0;
 }
