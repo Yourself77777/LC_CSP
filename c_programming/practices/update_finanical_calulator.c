@@ -4,7 +4,7 @@
 int calculate(float type1, char* word1, float perct){
     float income;
     perct=(type1/income)*100;
-    printf("Your monthly %d is %f that is %.2f%% of your income\n", word1, type1, perct);
+    printf("Your monthly %s is %.2f that is %.2f%% of your income\n", word1, type1, perct);
 }
 int ask_question(char* word1, float varuable1){
 
