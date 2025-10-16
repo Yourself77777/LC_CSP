@@ -1,10 +1,10 @@
 // LC 7th Update Financial Calculator
 #include <stdio.h>
 #include <math.h>
-int calculate(float type1, char* word1, float perct){
-    float income;
-    perct=(type1/income)*100;
-    printf("Your monthly %s is %.2f that is %.2f%% of your income\n", word1, type1, perct);
+int calculate(float income, float type, char* word){
+
+    float perct=(type/income)*100;
+    printf("Your monthly %s is %.2f that is %.2f%% of your income\n", word, type, perct);
 }
 int ask_question(char* word1, float varuable1){
 
@@ -34,10 +34,6 @@ int main(void){
     float gro;
     float trans;
     float spending_money;
-    float perct4;
-    float perct3;
-    float perct2;
-    float perct1;
     float saving_money;
 
 
@@ -60,18 +56,14 @@ int main(void){
     printf("Your monthly transportation is %.2f\n",trans);
 
     
-    calculate(rent, "rent", perct1);
+    calculate(income, rent, "rent");
     
-    calculate(utils, "Utilities", perct2);
+    calculate(income, utils, "Utilities");
 
-    
-    perct3=(gro/income)*100;
-    printf("Your monthly groceries is %.2f that is %.2f%% of your income\n", gro,perct3);
+    calculate(income, gro, "Groceries");
 
-    
-    perct4=(trans/income)*100;
-    printf("Your monthy transportation is %.2f that is %.2f%% of your income\n", trans,perct4);
-    
+    calculate(income, trans, "Transportation");
+
     saving_money = income*.10;
     printf("You should save around %.2f%%\n", saving_money);
 
